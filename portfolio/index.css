@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: white;
+    padding: 6px;
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.src{
+    text-align: center;
+}
+.container{
+    background-color: black;
+    width: 550px;
+    height: 520px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 420px;
+    cursor: pointer;
+    border-radius: 70px;
+    box-shadow: 6px 6px 6px 6px rgb(228, 228, 104);
+    color: white;
+}
+.content{
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.btn{
+    background-color: yellow;
+    background-color: black;
+    border-radius: 15px;
+    color: yellow;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Calibri;
+    border-color: yellow;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 101);
+    transition-duration: 1s;
+    color: black;
+}
+
+.container2{
+    background-color: white;
+    width: 43%;
+    height: 380px;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 29px;
+    color: black;
+    font-size: 25px;
+    box-shadow: 9px 9px 5px gray;
+    margin: 100px 0 0 399px;
+
+}
+.container2 p{
+    width: 20%;
+    height: 10%;
+    object-fit:fill;
+    display: inline-flex;
+    border-radius: 2px solid blue;
+    transition: all ease-in-out 0.5s;
+    color: black;
+}
+.container2 p:hover{
+    width: 40%;
+    height: 10%;
+
+}
+.container3{
+    background-color: black;
+    width: 1000px;
+    height: 430px;
+    margin-left: 180px;
+    border-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.container3:hover{
+    background-color: yellow;
+    transition-duration: 1s;
+    color:black;
+}
+.para{
+    font-size: 25px;
+    text-align: center;
+}
+.contact{
+    background-color: yellow;
+    width: 1300px;
+    height: 400px;
+    margin-left: 1.5%;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+}
+.sub{
+    background-color: black;
+    color: white;
+    border-color: yellow;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 30px;
+    border-color: white;
+}
+.sub:hover{
+    background-color: white;
+    color:black;
+}
+.btn2{
+    background-color: yellow;
+    background-color: black;
+    border-radius: 17px;
+    color: yellow;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Calibri;
+    border-color: yellow;
+    margin-left: 46%;
+    font-size: 25px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
